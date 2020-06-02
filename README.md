@@ -1,1 +1,1 @@
-# HTML-CSS-and-Javascript-for-Web-Developers Coursera Solution
+# HTML-CSS-and-Javascript-for-Web-Developers
