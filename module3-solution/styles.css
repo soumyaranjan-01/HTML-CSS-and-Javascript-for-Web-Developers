@@ -1,0 +1,127 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: #E7E7E7;
+}
+#link-top{
+    color: pink;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+#link-top:hover{
+  background-color:#E7E7E7;
+  color: black;
+}
+.navbar{
+  padding:15px;
+  background-color: rgb(169, 252, 101);
+  padding-left: 25px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+.navbar h1{
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-size: 2.3em;
+  font-weight: bold;
+  display: inline;
+}
+#nav-list a{
+  font-family: verdana;
+  font-size: 1.2em;
+  text-align: center;
+  color: #954C19;
+}
+#nav-list a:hover{
+  background-color: #E7E7E7;
+}
+#MENU{
+  width:100%;
+  padding: 15px;
+}
+#MENU h2{
+  text-align: center;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.container{
+  width: 100%;
+  padding: 15px;
+}
+.row{
+  width:100%;
+  overflow:hidden;
+}
+.container #content{
+  width:100%;
+  padding:15px;
+  border: 2px solid black;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:10px;
+  margin-bottom:10px;
+  background-color: red;
+  color: white;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.container #content .Food-item{
+  color: black;
+  text-align: center;
+}
+.container h3{
+  font-weight: bold;
+}
+/***********************FOR MEDIUM DEVICES**********************/
+@media (min-width:992px){
+    /*
+    .col-md-4{
+      float:left;
+      width:33.33%;
+    }
+    */
+    .navbar{
+      border-bottom: 5px solid black;
+      height:80px;
+    }
+}
+/***********************FOR SMALL DEVICES**********************/
+@media (min-width:768px) and (max-width:991px){
+    /*
+    .col-sm-6{
+      float:left;
+      width:50%;
+    }
+    .col-sm-12{
+      float:left;
+      width:100%;
+    }
+    */
+    .navbar{
+      border-bottom: 5px solid black;
+      height:80px;
+    }
+}
+/***********************FOR EXTRA SMALL DEVICES**********************/
+@media (max-width:767px){
+    /*
+    .col-xs-12{
+      float:left;
+      width:100%;
+    }
+    */
+    .navbar{
+      border-bottom: 3px solid pink;
+    }
+    .navbar-header{
+      border-bottom: 3px solid grey;
+    }
+    .navbar .navbar-toggle{
+      border:2px solid pink;
+      border-radius:10px;
+      background-color: #FC9403;
+    }
+    .navbar .icon-bar{
+      background-color: pink;
+    }
+
+}
